@@ -1,0 +1,139 @@
+.poster {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.redes-sociales {
+    list-style: none; 
+    padding: 0;
+    margin: 20px 0;
+    text-align: center; 
+}
+
+.redes-sociales li {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+.redes-sociales a {
+    color: #FFBF00;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.redes-sociales a:hover {
+    color: #C2B280;
+    text-decoration: underline;
+}
+
+
+.subrayado {
+    text-decoration: underline;
+}
+
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: none; 
+}
+
+.formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    max-width: 500px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.formulario-contacto .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-contacto label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #FFBF00;
+}
+
+.formulario-contacto input[type="text"],
+.formulario-contacto input[type="email"],
+.formulario-contacto textarea {
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #444;
+    color: #f1f1f1;
+    font-size: 1em;
+}
+
+.formulario-contacto input[type="text"]:focus,
+.formulario-contacto input[type="email"]:focus,
+.formulario-contacto textarea:focus {
+    border-color: #FFBF00; 
+    outline: none; 
+}
+
+.formulario-contacto textarea {
+    resize: vertical; 
+}
+
+.formulario-contacto button[type="submit"] {
+    background-color: #FFBF00;
+    color: #111;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.formulario-contacto button[type="submit"]:hover {
+    background-color: #C2B280; 
+}
+
+
+.confirmacion-mensaje {
+    text-align: center;
+    padding: 3rem;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.confirmacion-mensaje h2 {
+    color: #FFBF00;
+    margin-bottom: 1rem;
+}
+
+.confirmacion-mensaje p {
+    font-size: 1.1em;
+    margin-bottom: 1.5rem;
+}
+
+.boton-volver-inicio {
+    display: inline-block;
+    background-color: #FFBF00;
+    color: #111;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.boton-volver-inicio:hover {
+    background-color: #C2B280;
+}
