@@ -138,3 +138,82 @@ iframe {
     background-color: #C2B280;
 }
 
+.contenedor-temporadas {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 30px; 
+    justify-content: center; 
+    max-width: 1000px; 
+    margin: 2rem auto; 
+    padding: 0 20px; 
+}
+
+
+.temporada-card {
+    flex: 1 1 350px; 
+    background-color: #333; 
+    padding: 2rem; 
+    margin-bottom: 2rem; 
+    text-shadow: 2px 2px 4px black; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    box-sizing: border-box; 
+    text-align: center; 
+}
+
+
+.temporada-imagen {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto 15px auto; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.temporada-card h2 {
+    color: #FFBF00; 
+    font-size: 2em; 
+    margin-bottom: 20px; 
+}
+
+
+.temporada-card p {
+    font-size: 1.1em; 
+    margin-bottom: 20px;
+    color: #f1f1f1; 
+    text-align: justify; 
+}
+
+
+.temporada-card .subrayado {
+    color: #FFBF00; 
+    font-size: 1.3em; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.lista-capitulos {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.lista-capitulos li {
+    background-color: rgba(60, 60, 60, 0.8); 
+    margin-bottom: 8px; 
+    padding: 10px 15px;
+    border-radius: 5px; 
+    text-align: left; 
+}
+
+
+
+
+
+
+
+

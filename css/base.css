@@ -5,19 +5,27 @@ body {
     color: #f1f1f1;
     line-height: 1.6;
     padding: 2rem;
+
+    background-image: url('../img/background.jpg'); /* ESTO ES LO QUE NECESITAS AÑADIR/CAMBIAR */
+    background-size: cover;          /* La imagen cubrirá todo el fondo, sin dejar espacios */
+    background-position: center center; /* Centra la imagen */
+    background-repeat: no-repeat;    /* Evita que la imagen se repita */
+    background-attachment: fixed; 
+    
 }
 
 /* ENCABEZADO */
 header {
-    font-family: 'Oswald', sans-serif;
+   font-family: 'Oswald', sans-serif;
     padding: 20px 0;
     text-align: center;
     text-shadow: 2px 2px 4px black;
     letter-spacing: 2px;
     background-image: url('../img/fondo.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    min-height: 150px; 
+    background-size: contain;         
+    background-position: center;  
+    background-repeat: no-repeat;   
+    min-height: 150px;               
     display: flex; 
     align-items: center; 
     justify-content: center; 
