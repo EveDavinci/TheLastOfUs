@@ -66,6 +66,24 @@ nav a:hover {
     text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav li {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+}
+
 /* SECCIÓN PRINCIPAL (MAIN) */
 main {
     padding: 30px 20px;
@@ -104,4 +122,44 @@ footer {
     padding: 1rem;
     font-size: 0.9em;
     color: #aaa;
+}
+
+/* ESTILOS RESPONSIVE  */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+
+  img, iframe, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .contenedor {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  header, footer {
+    text-align: center;
+  }
+
+  .columna {
+    width: 100%;
+  }
+
+  .ocultar-en-mobile {
+    display: none;
+  }
+}
+/* DESBORDE DE IMAGENES O VIDEOS */
+img,
+iframe,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }

@@ -41,6 +41,24 @@ iframe {
     border: none; 
 }
 
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .formulario-contacto form {
     display: flex;
     flex-direction: column;
@@ -210,8 +228,23 @@ iframe {
     text-align: left; 
 }
 
+@media (max-width: 768px) {
+  .contenedor-temporadas {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
 
+  .temporada-card {
+    flex: 1 1 100%;
+    width: 100%;
+  }
 
+  .temporada-imagen {
+    width: 100%;
+    height: auto;
+  }
+}
 
 
 
