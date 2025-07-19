@@ -243,6 +243,18 @@ iframe {
   }
 }
 
+@media (max-width: 768px) {
+  .contenedor-temporadas {
+    max-width: none;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .temporada-card {
+    width: 100%;
+  }
+}
+
 
 .volver-arriba {
   display: block;
