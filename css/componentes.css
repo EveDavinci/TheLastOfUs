@@ -229,24 +229,42 @@ iframe {
 }
 
 @media (max-width: 768px) {
-  .contenedor-temporadas {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 10px;
-  }
-
   .temporada-card {
-    flex: 1 1 100%;
-    width: 100%;
+    text-align: left;
+    padding: 1.5rem;
   }
 
-  .temporada-imagen {
-    width: 100%;
-    height: auto;
+  .temporada-card p {
+    text-align: left;
+    word-spacing: normal;
+    letter-spacing: normal;
+    line-height: 1.6;
+    font-size: 1rem;
   }
 }
 
 
+.volver-arriba {
+  display: block;
+  text-align: center;
+  background-color: #444;
+  color: white;
+  padding: 10px 20px;
+  margin: 2rem auto;
+  width: fit-content;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s ease;
+}
 
+.volver-arriba:hover {
+  background-color: #666;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 
